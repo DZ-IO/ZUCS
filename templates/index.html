@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ZUCS_V0.1.0</title>
+    </head>
+   <body>
+      <form action = "/uploader" method = "POST" enctype = "multipart/form-data">
+         <p>上传工程：</p>
+         <input type = "file" name = "file" accept="ust" />
+         <input type = "submit"/>
+      </form>
+      <form action = "/get" method = "GET">
+         <p>输入提取码:</p>
+         <p><input type = "text" name = "num" /></p>
+         <p><input type = "submit" value = "提取" /></p>
+      </form>
+   </body>
+</html>
